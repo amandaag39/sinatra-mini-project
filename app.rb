@@ -13,9 +13,10 @@ get("/") do
   raw_data_string = raw_data.to_s
 
   # convert the string to JSON
-  @parsed_data = JSON.parse(raw_data_string)
+  parsed_data = JSON.parse(raw_data_string)
 
-  # get the symbols from the JSON
-  # @symbols = parsed_data.fetch("currencies")
+  # get the photo
+  @image_url = parsed_data["hdurl"]
+
  erb(:homepage)
 end
