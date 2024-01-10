@@ -17,6 +17,8 @@ get("/") do
 
   # get the photo
   @image_url = parsed_data["hdurl"]
+  @date_data = parsed_data["date"]
+  @title_data = parsed_data["title"]
 
  erb(:homepage)
 end
