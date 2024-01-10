@@ -1,8 +1,7 @@
-# sinatra-template
+# space_picture_of_the_day
 
-Use this repository to create new Sinatra apps. 
-
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+This displays a beautiful image sourced from NASA of a their chose daily subject. 
+You can also find the day's date and the title of the image below it.
 
 ```ruby
 require "sinatra/activerecord"
