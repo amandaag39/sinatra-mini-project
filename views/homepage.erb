@@ -1,5 +1,13 @@
 
-  <h1>Space Picture of the Day</h1>
+  <div>
+  <h1>"<%= @title_data %>"</h1>
   <p><%= @date_data %></p>
-  <img src="<%= @image_url %>" alt="Space Picture of the Day">
-  <p>"<%= @title_data %>"</p>
+  
+  </div>
+
+  <div id="container">
+    <img src="<%= @image_url %>" alt="Space Photo of the Day">
+    <div id="quote">
+      <p>"<%= @quote_text %>" -<%= @quote_author %></p>
+    </div>
+  </div>
