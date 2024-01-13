@@ -1,4 +1,11 @@
-# space_picture_of_the_day
+# Inspiration of the Day 
 
-This is a simple interface that displays a beautiful image sourced from NASA of a their chosen daily subject. <br>
-You can also find the day's date and the title of the image below it.
+---
+
+This is an app designed to inspire your day. 
+
+Reload it everyday to see a beautiful, new image of space scenery.
+
+Reload it anytime to generate an inspirational, quote from a stoic philosopher. 
+
+You can reload the page traditionally or by clicking the top banner text. 
