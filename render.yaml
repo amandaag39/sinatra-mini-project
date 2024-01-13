@@ -1,8 +1,7 @@
 services:
   - type: web
-    name: space_photo # the name of this service, eg hello-world
+    name: inspiration_of_the_day # the name of this service, eg hello-world
     env: ruby # this app is written in ruby
     plan: free # make sure to set this to free or you'll get billed $$$
     buildCommand: "./bin/render-build.sh" # # we already created these two files for you
     startCommand: "./bin/render-start.sh"
-
